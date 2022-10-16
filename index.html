@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Navbar CSSS</title>
+  </head>
+
+  <body>
+    <div id="navbar-container">
+      <nav id="hamburger-menu">
+        <label for="hamburger">
+          <button class="hamburger-button">&#9776;</button>
+         </label>
+      </nav>
+      <div id="links-container">
+        <a class="icon-link" href="#">Navbar</a>
+        <nav class="menu-start">
+          <ul class="list">
+            <li class="link-item main-item">
+              <a href="#"> Home </a>
+            </li>
+            <li class="link-item second-item">
+              <a href="#"> Link </a>
+            </li>
+            <li class="link-item">
+              <select class="dropdown-item" type="text">
+                <option>
+                  <a href="#">Dropdown</a>
+                </option>
+              </select>
+            </li>
+            <li class="link-item">
+              <a href="#"> <button dislabled>Disabled</button></a>
+            </li>
+          </ul>
+        </div>
+          <div id="form-link">
+            <form class="form" action="">
+              <label for="search">
+                <input
+                  type="search"
+                  id="search"
+                  name="search"
+                  placeholder="Search"
+                />
+                <button type="submit">
+                  Search
+                </button>
+              </label>
+            </form>
+          </div>
+        </nav>
+    </div>
+  </body>
+</html>
