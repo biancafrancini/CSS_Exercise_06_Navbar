@@ -12,16 +12,16 @@
   </head>
 
   <body>
-    <div id="navbar-container">
+    <nav id="navbar-container">
       <div id="hamburger-menu">
         <label for="hamburger">
           <button class="hamburger-button">&#9776;</button>
         </label>
       </div>
-      <nav id="links-container">
-        <div>
-        <a class="icon-link" href="#">Navbar</a>
-      </div>
+      <div id="links-container">
+        <div class="icon-link-container">
+          <a class="icon-link" href="#">Navbar</a>
+        </div>
         <div class="menu-start">
           <div class="items main-item">
             <a href="#"> Home </a>
@@ -40,20 +40,20 @@
             <a href="#"> <button dislabled>Disabled</button></a>
           </div>
         </div>
-        <div id="form-link">
-          <form class="form" action="">
-            <label for="search">
-              <input
-                type="search"
-                id="search"
-                name="search"
-                placeholder="Search"
-              />
-              <button type="submit">Search</button>
-            </label>
-          </form>
-        </div>
-      </nav>
-    </div>
+      </div>
+      <div id="form-link">
+        <form class="form" action="">
+          <label for="search">
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Search"
+            />
+          </label>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </body>
 </html>
