@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <link href="style.css" rel="stylesheet" />
-    <title>Navbar CSSS</title>
+    <title>Navbar CSS</title>
   </head>
 
   <body>
@@ -18,43 +18,42 @@
           <button class="hamburger-button">&#9776;</button>
         </label>
       </div>
-      <div id="links-container">
+      <nav id="links-container">
+        <div>
         <a class="icon-link" href="#">Navbar</a>
-        <nav class="menu-start">
-          <div class="list">
-            <div class="items main-item">
-              <a href="#"> Home </a>
-            </div>
-            <div class="items second-item">
-              <a href="#"> Link </a>
-            </div>
-            <div class="items">
-              <select class="dropdown-item" type="text">
-                <option>
-                  <a href="#">Dropdown</a>
-                </option>
-              </select>
-            </div>
-            <div class="items">
-              <a href="#"> <button dislabled>Disabled</button></a>
-            </div>
+      </div>
+        <div class="menu-start">
+          <div class="items main-item">
+            <a href="#"> Home </a>
+          </div>
+          <div class="items second-item">
+            <a href="#"> Link </a>
+          </div>
+          <div class="items">
+            <select class="dropdown-item" type="text">
+              <option>
+                <a href="#">Dropdown</a>
+              </option>
+            </select>
+          </div>
+          <div class="items">
+            <a href="#"> <button dislabled>Disabled</button></a>
           </div>
         </div>
-          <div id="form-link">
-            <form class="form" action="">
-              <label for="search">
-                <input
-                  type="search"
-                  id="search"
-                  name="search"
-                  placeholder="Search"
-                />
-                <button type="submit">Search</button>
-              </label>
-            </form>
-          </div>
-        </nav>
-      </div>
+        <div id="form-link">
+          <form class="form" action="">
+            <label for="search">
+              <input
+                type="search"
+                id="search"
+                name="search"
+                placeholder="Search"
+              />
+              <button type="submit">Search</button>
+            </label>
+          </form>
+        </div>
+      </nav>
     </div>
   </body>
 </html>
